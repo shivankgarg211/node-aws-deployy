@@ -7,6 +7,9 @@ const app = express();
 app.get('/api/get',(req,res) =>{
         res.send({message:'Nodejs Aws Deployment'})
 })
+app.get('/api/get',(req,res) =>{
+        res.send({name:'shivank',email:'gargshivank211@gmail.com'})
+})
 
 
 
